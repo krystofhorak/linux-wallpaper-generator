@@ -9,10 +9,8 @@ const HomePage = (): JSX.Element => {
 
   return (
     <DefaultLayout>
-      <div className="canvas">
-
-      </div>
       <h1>Linux Ricing Generator</h1>
+      <div className="canvas" />
       <h2>Generation</h2>
       <form onSubmit={handleGenerate}>
         <label htmlFor="distribution">Distribution:</label><br />
